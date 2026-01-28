@@ -1,0 +1,10 @@
+Upload your optimized images into this folder.
+
+Recommendations:
+- Keep originals locally. Upload only web-optimized copies.
+- Resize long edge to max 2000px.
+- Save for web (JPEG quality 70–85% or use PNG for transparency).
+- Naming pattern:
+  gallery/paint_sunset_2024.jpg
+  products/tee_signature_front.jpg
+- After uploading, update index.html image src paths if you use different filenames.

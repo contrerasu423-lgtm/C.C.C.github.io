@@ -1,10 +1,149 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>URIEL CONTRERAS | Art & Vision</title>
+  <meta name="description" content="URIEL CONTRERAS — portfolio of paintings, threads, stonework, and apparel.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>URIEL CONTRERAS</h1>
-  <p>Artist. Creator. Building something real.</p>
+  <header>
+    <div class="site-inner">
+      <h1 class="logo">URIEL CONTRERAS</h1>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="site-inner">
+        <h2>Artist. Creator. Building something real.</h2>
+        <p>Welcome — I work in paint, threads, and stone. Browse the gallery or view the shop to get apparel and originals.</p>
+        <a class="button" href="#gallery">View Work</a>
+        <a class="button ghost" href="#shop">Shop</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="site-inner">
+        <h3>Gallery</h3>
+        <p class="muted">Selected work by medium — click to enlarge.</p>
+
+        <div class="gallery">
+          <!-- Replace these src values with the paths to your uploaded images in assets/images/ -->
+          <img loading="lazy" src="assets/images/gallery1.jpg" alt="Artwork title or short description">
+          <img loading="lazy" src="assets/images/gallery2.jpg" alt="Artwork title or short description">
+          <img loading="lazy" src="assets/images/gallery3.jpg" alt="Artwork title or short description">
+        </div>
+
+        <p class="muted small">Tip: add descriptive alt text and medium/year for each piece.</p>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="site-inner">
+        <h3>Shop</h3>
+        <p class="muted">Clothing and limited editions — click Buy to start checkout.</p>
+
+        <div class="products">
+          <!-- Product card 1 -->
+          <article class="product-card">
+            <img src="assets/images/product-tee.jpg" alt="Signature Tee">
+            <div class="product-info">
+              <h4>Signature Tee</h4>
+              <p class="price">$28.00</p>
+
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="contrerasu423@gmail.com">
+                <input type="hidden" name="item_name" value="Signature Tee">
+                <input type="hidden" name="amount" value="28.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="return" value="https://contrerasu423-lgtm.github.io/C.C.C.github.io/thank-you.html">
+                <button class="button buy" type="submit">Buy — $28</button>
+              </form>
+
+            </div>
+          </article>
+
+          <!-- Product card 2 -->
+          <article class="product-card">
+            <img src="assets/images/product-hoodie.jpg" alt="Classic Hoodie">
+            <div class="product-info">
+              <h4>Classic Hoodie</h4>
+              <p class="price">$48.00</p>
+
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="contrerasu423@gmail.com">
+                <input type="hidden" name="item_name" value="Classic Hoodie">
+                <input type="hidden" name="amount" value="48.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="return" value="https://contrerasu423-lgtm.github.io/C.C.C.github.io/thank-you.html">
+                <button class="button buy" type="submit">Buy — $48</button>
+              </form>
+
+            </div>
+          </article>
+
+          <!-- Product card 3 -->
+          <article class="product-card">
+            <img src="assets/images/product-hat.jpg" alt="Logo Beanie">
+            <div class="product-info">
+              <h4>Logo Beanie</h4>
+              <p class="price">$22.00</p>
+
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="contrerasu423@gmail.com">
+                <input type="hidden" name="item_name" value="Logo Beanie">
+                <input type="hidden" name="amount" value="22.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="return" value="https://contrerasu423-lgtm.github.io/C.C.C.github.io/thank-you.html">
+                <button class="button buy" type="submit">Buy — $22</button>
+              </form>
+
+            </div>
+          </article>
+
+        </div>
+
+        <p class="muted small">Notes: After a purchase you'll receive the buyer's shipping address. Use that address to create the order on Printful and pay Printful to fulfill it. See HOWTO_PRINTPAL.md for details.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="site-inner">
+        <h3>About</h3>
+        <p>Hi — I’m Uriel. I create across multiple mediums and release apparel tied to drops and shows. [Add a short artist statement and any press/exhibitions here.]</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="site-inner">
+        <h3>Contact</h3>
+        <p>For commissions, shop questions, or collabs email: <a href="mailto:contrerasu423@gmail.com">contrerasu423@gmail.com</a></p>
+        <p class="muted">Follow me: <a href="#" aria-label="Instagram">Instagram</a> • <a href="#" aria-label="TikTok">TikTok</a> • <a href="#" aria-label="X">X</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="site-inner">
+      <small>© <span id="year"></span> Uriel Contreras — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    // small script: set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

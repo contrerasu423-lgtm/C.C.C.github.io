@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Orders | Your Name</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+Contact Uriel
 
-<header>
-  <h1>Place an Order</h1>
-</header>
+For commissions and shop inquiries:
+- Email: contrerasu423@gmail.com
+- DM on Instagram: @yourhandle
 
-<div class="section">
-  <p>Email me with:</p>
-  <ul>
-    <li>Design name</li>
-    <li>Size</li>
-    <li>Shipping address</li>
-  </ul>
-
-  <p>Email: <strong>contrerasu423@gmail.com</strong></p>
-</div>
-
-</body>
-</html>
-
+If you'd like a contact form on the site I can add a simple form that posts to Formspree (free) or Netlify Forms.
