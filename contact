@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Place an Order</h1>
+</header>
+
+<div class="section">
+  <p>Email me with:</p>
+  <ul>
+    <li>Design name</li>
+    <li>Size</li>
+    <li>Shipping address</li>
+  </ul>
+
+  <p>Email: <strong>contrerasu423@gmail.com</strong></p>
+</div>
+
+</body>
+</html>
 

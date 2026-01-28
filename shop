@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop | URIEL CONTRERAS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Clothing & Prints</h1>
+  <nav>
+    <a href="index.html">Gallery</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Orders</a>
+  </nav>
+</header>
+
+<div class="section">
+  <h2>Limited Pieces</h2>
+  <p>Each piece is made with intention. Orders are fulfilled manually.</p>
+
+  <h3>T-Shirt Design Name</h3>
+  <p>$45 USD</p>
+  <a class="button" href="contact.html">Order This Piece</a>
+
+</div>
+
+</body>
+</html>
 

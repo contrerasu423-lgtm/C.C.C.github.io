@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About | URIEL CONTRERAS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>About the Artist</h1>
+</header>
+
+<div class="section">
+  <p>
+    This gallery is a living archive of my creative manifestations.
+    Each piece reflects evolution, struggle, and expansion.
+  </p>
+</div>
+
+</body>
+</html>
 
