@@ -40,7 +40,7 @@ header .site-inner{display:flex;align-items:center;justify-content:space-between
   min-height:420px;
 }
 
-/* background image (place optimized file at assets/images/ccc-sparrow.jpg) */
+/*(332ed0dd-de01-4fa3-a805-4b897dbd543f.jpeg ) */
 .hero::before{
   content: "";
   position: absolute;
